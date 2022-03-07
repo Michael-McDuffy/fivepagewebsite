@@ -1,0 +1,100 @@
+.maincontainer {
+display: flex;
+flex-direction: column;
+
+}
+.header {
+text-align: center;
+text-transform: capitalize;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+text-align: center;
+}
+h1 {
+    align-items: center;
+}
+header nav:hover {
+background-color: gray;
+}
+.main {
+    height: 500px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-beacon.jpg ) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+.profiles {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 150%;
+
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    justify-content:space-evenly;
+    list-style-type:none;
+    display:flex; gap:30px;
+}
+nav {
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ text-align: center;
+ justify-content: space-evenly;
+}
+p {
+    font-size: 120%;
+    background-color: white;
+    color:black;
+    margin-right: 20%;
+}
+h2 {
+    font-size: 145%;
+    background-color: black;
+    color: white;
+    margin-right: 20%;
+}
+button {
+    background-color: turquoise;
+    margin-right: 70%
+}
+li {
+    font-size: 150%;
+}
+.father {
+border:3px black solid;
+background-color: gray;
+}
+.actor {
+    border:3px black solid;
+background-color: gray;
+}
+.nerd {
+    border:3px black solid;
+    background-color: gray;
+}
+.footer {
+    margin-top: 5%;
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 36px;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 42px;
+    justify-content: space-around;
+}
+.mustacchio {
+    justify-content: left;
+
+}
