@@ -99,4 +99,9 @@ background-color: gray;
     justify-content: left;
 
 }
+.br {
+    border: black 5px solid;
+    padding: 0%;
+    background-color:black ;
+}
 /* index page end */
