@@ -1,0 +1,55 @@
+/* about page */
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    
+    }
+nav {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+}
+.aboutheader{
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.about {
+    text-align: center;
+
+}
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 150%;
+    color: white;
+    background-color: black;
+}
+.aboutimage {
+    border: black 3px solid;
+    width: 50%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    background-color: black;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+.p1 {
+    text-align: center;
+
+}
+h1 {
+    font-size: 150%;
+    text-transform: capitalize;
+}
+/* about page end */
